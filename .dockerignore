@@ -1,0 +1,14 @@
+# Version Control
+.git
+.gitignore
+
+# Language folders to ignore
+/ar/
+/el/
+/eo/
+/fi/
+/ko/
+/ro/
+/ru/
+/vi/
+/zh/
