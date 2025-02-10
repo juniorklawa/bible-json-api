@@ -1,0 +1,21 @@
+{
+  "name": "bible-json-api",
+  "version": "1.0.0",
+  "description": "Bible JSON API with PostgreSQL database",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "migrate": "ts-node src/migrate.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.29.3",
+    "postgres": "^3.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "drizzle-kit": "^0.20.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  json-server:
+    build: .
+    ports:
+      - "3500:80"
+    restart: unless-stopped
